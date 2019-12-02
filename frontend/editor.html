@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Editor</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/editor.css">
+</head>
+
+<body>
+    <section class="video-section">
+        <div class="video">
+            <video autoplay="type" class="video-player" controls>
+                <source src="http://localhost:3000/video" type="video/mp4" />
+            </video>
+        </div>
+    </section>
+
+    <!-- <section>
+        <video autoplay="true" id="videoElement" controls>
+
+        </video>
+    </section>
+    <script>
+        var video = document.querySelector("#videoElement");
+        if (navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function (stream) {
+                    video.srcObject = stream;
+                })
+                .catch(function (err0r) {
+                    console.log("Something went wrong!");
+                });
+        }
+    </script> -->
+
+</body>
+
+</html>
